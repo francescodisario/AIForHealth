@@ -1,0 +1,140 @@
+
+Loading Dataset
+shape of testing label[0]: (36, 13, 13, 8)
+shape of testing label[1]: (36, 26, 26, 8)
+shape of testing label[2]: (36, 52, 52, 8)
+shape of testing img: (36, 416, 416, 3)
+shape of validation label[0]: (36, 13, 13, 8)
+shape of validation label[1]: (36, 26, 26, 8)
+shape of validation label[2]: (36, 52, 52, 8)
+shape of validation img: (36, 416, 416, 3)
+shape of training label[0]: (296, 13, 13, 8)
+shape of training label[1]: (296, 26, 26, 8)
+shape of training label[2]: (296, 52, 52, 8)
+shape of training img: (296, 416, 416, 3)
+epoch  1: loss = 0.1819
+epoch  2: loss = 0.0478
+epoch  3: loss = 0.0350
+epoch  4: loss = 0.0278
+epoch  5: loss = 0.0183
+epoch  6: loss = 0.0146
+epoch  7: loss = 0.0115
+epoch  8: loss = 0.0080
+epoch  9: loss = 0.0070
+epoch 10: loss = 0.0060
+epoch 11: loss = 0.0071
+epoch 12: loss = 0.0073
+epoch 13: loss = 0.0076
+epoch 14: loss = 0.0067
+epoch 15: loss = 0.0053
+epoch 16: loss = 0.0043
+epoch 17: loss = 0.0045
+epoch 18: loss = 0.0046
+epoch 19: loss = 0.0042
+epoch 20: loss = 0.0041
+epoch 21: loss = 0.0043
+epoch 22: loss = 0.0030
+epoch 23: loss = 0.0031
+epoch 24: loss = 0.0018
+epoch 25: loss = 0.0024
+epoch 26: loss = 0.0019
+epoch 27: loss = 0.0024
+epoch 28: loss = 0.0022
+epoch 29: loss = 0.0012
+epoch 30: loss = 0.0016
+epoch 31: loss = 0.0014
+epoch 32: loss = 0.0026
+epoch 33: loss = 0.0016
+epoch 34: loss = 0.0022
+epoch 35: loss = 0.0014
+epoch 36: loss = 0.0009
+epoch 37: loss = 0.0008
+epoch 38: loss = 0.0005
+epoch 39: loss = 0.0002
+epoch 40: loss = 0.0001
+epoch 41: loss = 0.0000
+Epoch 1/5
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7fd84037e3a0> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmptfym5b6e.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7fd7b411da60> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmpshij5d6f.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7fd7b411de50> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmp0izpjf2w.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+
+ 8/60 [===>..........................] - ETA: 19s - loss: 953.2145 - concatenate_2_loss: 151.2795 - concatenate_3_loss: 272.9043 - concatenate_4_loss: 529.0306
+
+
+
+
+
+
+
+
+
+
+
+60/60 [==============================] - 44s 479ms/step - loss: 605.9621 - concatenate_2_loss: 113.0208 - concatenate_3_loss: 171.9465 - concatenate_4_loss: 320.9948 - val_loss: 449.5863 - val_concatenate_2_loss: 124.3081 - val_concatenate_3_loss: 99.3649 - val_concatenate_4_loss: 225.9132
+Epoch 2/5
+
+
+
+
+
+
+
+
+
+
+
+
+60/60 [==============================] - 25s 414ms/step - loss: 176.5808 - concatenate_2_loss: 57.1652 - concatenate_3_loss: 46.5574 - concatenate_4_loss: 72.8581 - val_loss: 281.0855 - val_concatenate_2_loss: 80.9913 - val_concatenate_3_loss: 65.8159 - val_concatenate_4_loss: 134.2782
+Epoch 3/5
+
+
+
+
+
+
+
+
+
+
+
+60/60 [==============================] - 25s 409ms/step - loss: 113.0861 - concatenate_2_loss: 44.4040 - concatenate_3_loss: 29.5808 - concatenate_4_loss: 39.1013 - val_loss: 216.9364 - val_concatenate_2_loss: 64.1826 - val_concatenate_3_loss: 53.2228 - val_concatenate_4_loss: 99.5311
+Epoch 4/5
+
+
+
+
+
+
+
+
+
+
+
+60/60 [==============================] - 25s 416ms/step - loss: 86.6275 - concatenate_2_loss: 36.4215 - concatenate_3_loss: 23.0413 - concatenate_4_loss: 27.1647 - val_loss: 192.5232 - val_concatenate_2_loss: 56.8471 - val_concatenate_3_loss: 48.7919 - val_concatenate_4_loss: 86.8843
+Epoch 5/5
+
+
+
+
+
+
+
+
+
+
+
+
+60/60 [==============================] - 24s 405ms/step - loss: 65.1321 - concatenate_2_loss: 26.2391 - concatenate_3_loss: 17.8672 - concatenate_4_loss: 21.0259 - val_loss: 178.8567 - val_concatenate_2_loss: 53.7858 - val_concatenate_3_loss: 45.3036 - val_concatenate_4_loss: 79.7673
+           precision    recall  F1-score  gts  dets
+RBC         0.570529  0.974194  0.719619  465   794
+WBC         0.260163  0.864865  0.400000   37   123
+Platelets   0.145374  0.846154  0.248120   39   227

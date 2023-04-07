@@ -1,0 +1,142 @@
+
+Loading Dataset
+shape of testing label[0]: (36, 13, 13, 8)
+shape of testing label[1]: (36, 26, 26, 8)
+shape of testing label[2]: (36, 52, 52, 8)
+shape of testing img: (36, 416, 416, 3)
+shape of validation label[0]: (36, 13, 13, 8)
+shape of validation label[1]: (36, 26, 26, 8)
+shape of validation label[2]: (36, 52, 52, 8)
+shape of validation img: (36, 416, 416, 3)
+shape of training label[0]: (296, 13, 13, 8)
+shape of training label[1]: (296, 26, 26, 8)
+shape of training label[2]: (296, 52, 52, 8)
+shape of training img: (296, 416, 416, 3)
+epoch  1: loss = 0.1231
+epoch  2: loss = 0.0358
+epoch  3: loss = 0.0280
+epoch  4: loss = 0.0204
+epoch  5: loss = 0.0139
+epoch  6: loss = 0.0092
+epoch  7: loss = 0.0076
+epoch  8: loss = 0.0057
+epoch  9: loss = 0.0050
+epoch 10: loss = 0.0043
+epoch 11: loss = 0.0035
+epoch 12: loss = 0.0037
+epoch 13: loss = 0.0028
+epoch 14: loss = 0.0023
+epoch 15: loss = 0.0024
+epoch 16: loss = 0.0028
+epoch 17: loss = 0.0030
+epoch 18: loss = 0.0049
+epoch 19: loss = 0.0066
+epoch 20: loss = 0.0076
+epoch 21: loss = 0.0064
+epoch 22: loss = 0.0060
+epoch 23: loss = 0.0048
+epoch 24: loss = 0.0050
+epoch 25: loss = 0.0048
+epoch 26: loss = 0.0043
+epoch 27: loss = 0.0028
+epoch 28: loss = 0.0020
+epoch 29: loss = 0.0020
+epoch 30: loss = 0.0020
+epoch 31: loss = 0.0023
+epoch 32: loss = 0.0013
+epoch 33: loss = 0.0010
+epoch 34: loss = 0.0025
+epoch 35: loss = 0.0016
+epoch 36: loss = 0.0022
+epoch 37: loss = 0.0014
+epoch 38: loss = 0.0009
+epoch 39: loss = 0.0008
+epoch 40: loss = 0.0005
+epoch 41: loss = 0.0002
+epoch 42: loss = 0.0001
+epoch 43: loss = 0.0000
+Epoch 1/5
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7efeac0a95e0> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmp8ohffiow.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7efdf4623a60> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmpgcsoj9dc.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7efdf4623e50> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmpjl70d0i8.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+
+ 8/60 [===>..........................] - ETA: 19s - loss: 831.2274 - concatenate_2_loss: 149.5468 - concatenate_3_loss: 217.2598 - concatenate_4_loss: 464.4209 - concatenate_2_obj_acc: 0.2533 - concatenate_3_obj_acc: 0.2181 - concatenate_4_obj_acc: 0.1609
+
+
+
+
+
+
+
+
+
+
+
+
+60/60 [==============================] - 47s 493ms/step - loss: 515.0371 - concatenate_2_loss: 103.3709 - concatenate_3_loss: 132.3433 - concatenate_4_loss: 279.3229 - concatenate_2_obj_acc: 0.4742 - concatenate_3_obj_acc: 0.3605 - concatenate_4_obj_acc: 0.2549 - val_loss: 309.2662 - val_concatenate_2_loss: 78.9858 - val_concatenate_3_loss: 82.9935 - val_concatenate_4_loss: 147.2869 - val_concatenate_2_obj_acc: 0.7628 - val_concatenate_3_obj_acc: 0.8320 - val_concatenate_4_obj_acc: 0.4516
+Epoch 2/5
+
+
+
+
+
+
+
+
+
+
+
+
+60/60 [==============================] - 26s 435ms/step - loss: 154.4695 - concatenate_2_loss: 49.5396 - concatenate_3_loss: 37.9351 - concatenate_4_loss: 66.9948 - concatenate_2_obj_acc: 0.8445 - concatenate_3_obj_acc: 0.8716 - concatenate_4_obj_acc: 0.7242 - val_loss: 229.7882 - val_concatenate_2_loss: 62.7236 - val_concatenate_3_loss: 61.6597 - val_concatenate_4_loss: 105.4049 - val_concatenate_2_obj_acc: 0.8391 - val_concatenate_3_obj_acc: 0.8914 - val_concatenate_4_obj_acc: 0.8021
+Epoch 3/5
+
+
+
+
+
+
+
+
+
+
+
+
+60/60 [==============================] - 27s 453ms/step - loss: 96.2085 - concatenate_2_loss: 36.0814 - concatenate_3_loss: 24.3231 - concatenate_4_loss: 35.8040 - concatenate_2_obj_acc: 0.8800 - concatenate_3_obj_acc: 0.9198 - concatenate_4_obj_acc: 0.8802 - val_loss: 231.2023 - val_concatenate_2_loss: 63.6973 - val_concatenate_3_loss: 55.1158 - val_concatenate_4_loss: 112.3891 - val_concatenate_2_obj_acc: 0.8501 - val_concatenate_3_obj_acc: 0.9076 - val_concatenate_4_obj_acc: 0.8394
+Epoch 4/5
+
+
+
+
+
+
+
+
+
+
+
+
+60/60 [==============================] - 26s 429ms/step - loss: 71.7792 - concatenate_2_loss: 28.3056 - concatenate_3_loss: 18.7766 - concatenate_4_loss: 24.6970 - concatenate_2_obj_acc: 0.8771 - concatenate_3_obj_acc: 0.9274 - concatenate_4_obj_acc: 0.9086 - val_loss: 215.1055 - val_concatenate_2_loss: 58.5850 - val_concatenate_3_loss: 52.9819 - val_concatenate_4_loss: 103.5386 - val_concatenate_2_obj_acc: 0.8637 - val_concatenate_3_obj_acc: 0.9246 - val_concatenate_4_obj_acc: 0.8829
+Epoch 5/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+60/60 [==============================] - 26s 438ms/step - loss: 57.5802 - concatenate_2_loss: 22.1345 - concatenate_3_loss: 15.6305 - concatenate_4_loss: 19.8151 - concatenate_2_obj_acc: 0.8970 - concatenate_3_obj_acc: 0.9380 - concatenate_4_obj_acc: 0.9256 - val_loss: 184.5415 - val_concatenate_2_loss: 52.6561 - val_concatenate_3_loss: 45.7993 - val_concatenate_4_loss: 86.0861 - val_concatenate_2_obj_acc: 0.8953 - val_concatenate_3_obj_acc: 0.9356 - val_concatenate_4_obj_acc: 0.9153

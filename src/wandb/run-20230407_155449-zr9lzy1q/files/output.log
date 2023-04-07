@@ -1,0 +1,143 @@
+
+Loading Dataset
+shape of testing label[0]: (36, 13, 13, 8)
+shape of testing label[1]: (36, 26, 26, 8)
+shape of testing label[2]: (36, 52, 52, 8)
+shape of testing img: (36, 416, 416, 3)
+shape of validation label[0]: (36, 13, 13, 8)
+shape of validation label[1]: (36, 26, 26, 8)
+shape of validation label[2]: (36, 52, 52, 8)
+shape of validation img: (36, 416, 416, 3)
+shape of training label[0]: (296, 13, 13, 8)
+shape of training label[1]: (296, 26, 26, 8)
+shape of training label[2]: (296, 52, 52, 8)
+shape of training img: (296, 416, 416, 3)
+epoch  1: loss = 0.1551
+epoch  2: loss = 0.0291
+epoch  3: loss = 0.0151
+epoch  4: loss = 0.0129
+epoch  5: loss = 0.0132
+epoch  6: loss = 0.0117
+epoch  7: loss = 0.0121
+epoch  8: loss = 0.0115
+epoch  9: loss = 0.0105
+epoch 10: loss = 0.0113
+epoch 11: loss = 0.0123
+epoch 12: loss = 0.0146
+epoch 13: loss = 0.0145
+epoch 14: loss = 0.0162
+epoch 15: loss = 0.0154
+epoch 16: loss = 0.0155
+epoch 17: loss = 0.0135
+epoch 18: loss = 0.0119
+epoch 19: loss = 0.0119
+epoch 20: loss = 0.0073
+epoch 21: loss = 0.0089
+epoch 22: loss = 0.0087
+epoch 23: loss = 0.0092
+epoch 24: loss = 0.0087
+epoch 25: loss = 0.0063
+epoch 26: loss = 0.0044
+epoch 27: loss = 0.0048
+epoch 28: loss = 0.0059
+epoch 29: loss = 0.0046
+epoch 30: loss = 0.0060
+epoch 31: loss = 0.0051
+epoch 32: loss = 0.0046
+epoch 33: loss = 0.0061
+epoch 34: loss = 0.0040
+epoch 35: loss = 0.0054
+epoch 36: loss = 0.0071
+epoch 37: loss = 0.0081
+epoch 38: loss = 0.0067
+epoch 39: loss = 0.0050
+epoch 40: loss = 0.0042
+epoch 41: loss = 0.0055
+epoch 42: loss = 0.0058
+epoch 43: loss = 0.0055
+epoch 44: loss = 0.0053
+epoch 45: loss = 0.0034
+epoch 46: loss = 0.0021
+epoch 47: loss = 0.0015
+epoch 48: loss = 0.0014
+epoch 49: loss = 0.0011
+epoch 50: loss = 0.0014
+epoch 51: loss = 0.0019
+epoch 52: loss = 0.0021
+epoch 53: loss = 0.0019
+epoch 54: loss = 0.0016
+epoch 55: loss = 0.0013
+epoch 56: loss = 0.0017
+epoch 57: loss = 0.0021
+epoch 58: loss = 0.0020
+epoch 59: loss = 0.0021
+epoch 60: loss = 0.0016
+epoch 61: loss = 0.0024
+epoch 62: loss = 0.0028
+epoch 63: loss = 0.0015
+epoch 64: loss = 0.0018
+epoch 65: loss = 0.0020
+epoch 66: loss = 0.0031
+epoch 67: loss = 0.0052
+epoch 68: loss = 0.0062
+epoch 69: loss = 0.0063
+epoch 70: loss = 0.0056
+epoch 71: loss = 0.0055
+epoch 72: loss = 0.0049
+epoch 73: loss = 0.0050
+epoch 74: loss = 0.0036
+epoch 75: loss = 0.0024
+epoch 76: loss = 0.0012
+epoch 77: loss = 0.0015
+epoch 78: loss = 0.0016
+epoch 79: loss = 0.0017
+epoch 80: loss = 0.0028
+epoch 81: loss = 0.0013
+epoch 82: loss = 0.0007
+epoch 83: loss = 0.0005
+epoch 84: loss = 0.0002
+epoch 85: loss = 0.0002
+epoch 86: loss = 0.0000
+Epoch 1/2
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7f5e001600d0> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmpu7si7025.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7f5dc064eca0> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmp6rpc763i.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7f5e00643040> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmpwhoyaa_k.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+ 3/60 [>.............................] - ETA: 22s - loss: 1089.4061 - concatenate_2_loss: 164.4138 - concatenate_3_loss: 290.0581 - concatenate_4_loss: 634.9344
+
+
+
+
+
+
+
+
+
+
+
+60/60 [==============================] - 44s 455ms/step - loss: 619.3129 - concatenate_2_loss: 108.2167 - concatenate_3_loss: 152.8855 - concatenate_4_loss: 358.2107 - val_loss: 421.5696 - val_concatenate_2_loss: 90.8636 - val_concatenate_3_loss: 93.0889 - val_concatenate_4_loss: 237.6171
+Epoch 2/2
+
+
+
+
+
+
+
+
+
+
+
+60/60 [==============================] - 24s 403ms/step - loss: 200.9456 - concatenate_2_loss: 55.3053 - concatenate_3_loss: 42.5097 - concatenate_4_loss: 103.1307 - val_loss: 258.9236 - val_concatenate_2_loss: 69.5317 - val_concatenate_3_loss: 62.1075 - val_concatenate_4_loss: 127.2845
+           precision    recall  F1-score  gts  dets
+RBC         0.225641  0.946237  0.364389  465  1950
+WBC         0.015205  0.351351  0.029148   37   855
+Platelets   0.012518  0.435897  0.024338   39  1358

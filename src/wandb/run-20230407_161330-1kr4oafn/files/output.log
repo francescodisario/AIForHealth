@@ -1,0 +1,50 @@
+
+Loading Dataset
+shape of testing label[0]: (36, 13, 13, 8)
+shape of testing label[1]: (36, 26, 26, 8)
+shape of testing label[2]: (36, 52, 52, 8)
+shape of testing img: (36, 416, 416, 3)
+shape of validation label[0]: (36, 13, 13, 8)
+shape of validation label[1]: (36, 26, 26, 8)
+shape of validation label[2]: (36, 52, 52, 8)
+shape of validation img: (36, 416, 416, 3)
+shape of training label[0]: (296, 13, 13, 8)
+shape of training label[1]: (296, 26, 26, 8)
+shape of training label[2]: (296, 52, 52, 8)
+shape of training img: (296, 416, 416, 3)
+epoch  1: loss = 0.2040
+epoch  2: loss = 0.0468
+epoch  3: loss = 0.0270
+epoch  4: loss = 0.0226
+epoch  5: loss = 0.0208
+epoch  6: loss = 0.0164
+epoch  7: loss = 0.0114
+epoch  8: loss = 0.0083
+epoch  9: loss = 0.0085
+epoch 10: loss = 0.0062
+epoch 11: loss = 0.0063
+epoch 12: loss = 0.0053
+epoch 13: loss = 0.0047
+epoch 14: loss = 0.0025
+epoch 15: loss = 0.0041
+epoch 16: loss = 0.0037
+epoch 17: loss = 0.0038
+epoch 18: loss = 0.0029
+epoch 19: loss = 0.0032
+epoch 20: loss = 0.0015
+epoch 21: loss = 0.0007
+epoch 22: loss = 0.0011
+epoch 23: loss = 0.0011
+epoch 24: loss = 0.0004
+epoch 25: loss = 0.0002
+epoch 26: loss = 0.0008
+epoch 27: loss = 0.0003
+epoch 28: loss = 0.0012
+epoch 29: loss = 0.0004
+epoch 30: loss = 0.0002
+epoch 31: loss = 0.0001
+epoch 32: loss = 0.0001
+epoch 33: loss = 0.0002
+epoch 34: loss = 0.0002
+epoch 35: loss = 0.0001
+epoch 36: loss = 0.0000

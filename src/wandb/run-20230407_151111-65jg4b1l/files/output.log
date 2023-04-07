@@ -1,0 +1,79 @@
+
+Loading Dataset
+shape of testing label[0]: (36, 13, 13, 8)
+shape of testing label[1]: (36, 26, 26, 8)
+shape of testing label[2]: (36, 52, 52, 8)
+shape of testing img: (36, 416, 416, 3)
+shape of validation label[0]: (36, 13, 13, 8)
+shape of validation label[1]: (36, 26, 26, 8)
+shape of validation label[2]: (36, 52, 52, 8)
+shape of validation img: (36, 416, 416, 3)
+shape of training label[0]: (296, 13, 13, 8)
+shape of training label[1]: (296, 26, 26, 8)
+shape of training label[2]: (296, 52, 52, 8)
+shape of training img: (296, 416, 416, 3)
+epoch  1: loss = 0.0946
+epoch  2: loss = 0.0594
+epoch  3: loss = 0.0376
+epoch  4: loss = 0.0287
+epoch  5: loss = 0.0195
+epoch  6: loss = 0.0152
+epoch  7: loss = 0.0060
+epoch  8: loss = 0.0047
+epoch  9: loss = 0.0036
+epoch 10: loss = 0.0031
+epoch 11: loss = 0.0025
+epoch 12: loss = 0.0010
+epoch 13: loss = 0.0009
+epoch 14: loss = 0.0008
+epoch 15: loss = 0.0004
+epoch 16: loss = 0.0001
+epoch 17: loss = 0.0003
+epoch 18: loss = 0.0005
+epoch 19: loss = 0.0003
+epoch 20: loss = 0.0002
+epoch 21: loss = 0.0002
+epoch 22: loss = 0.0002
+epoch 23: loss = 0.0000
+epoch 24: loss = 0.0000
+epoch 25: loss = 0.0000
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7f94c4492e50> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmp584av9rk.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7f94a0322af0> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmp0owexjmh.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7f94a0322ee0> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmpe65fl5wj.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+
+ 6/60 [==>...........................] - ETA: 20s - loss: 1056.5581 - concatenate_2_loss: 208.0128 - concatenate_3_loss: 251.7730 - concatenate_4_loss: 596.7722
+
+
+
+
+
+
+
+
+
+
+
+
+60/60 [==============================] - 42s 452ms/step - loss: 617.0013 - concatenate_2_loss: 129.0424 - concatenate_3_loss: 147.2569 - concatenate_4_loss: 340.7020 - val_loss: 375.3312 - val_concatenate_2_loss: 101.2942 - val_concatenate_3_loss: 85.2582 - val_concatenate_4_loss: 188.7789
+/home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/tf2_YOLO/utils/measurement.py:433: Warning: `PR_func` is deprecated and renamed to `PRfunc`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/main.py", line 158, in <module>
+  File "/home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/main.py", line 137, in main
+    pr = PR_func(
+  File "/home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/tf2_YOLO/utils/measurement.py", line 436, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/tf2_YOLO/utils/measurement.py", line 219, in __init__
+    xywhcp_pred = decode(*y_pred,
+  File "/home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/tf2_YOLO/utils/tools.py", line 401, in decode
+    output.append([box_x, box_y, box_w, box_h, conf, class_i, box_p])
+KeyboardInterrupt

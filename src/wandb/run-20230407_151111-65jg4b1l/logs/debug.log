@@ -1,0 +1,25 @@
+2023-04-07 15:11:11,718 INFO    MainThread:93286 [wandb_setup.py:_flush():76] Configure stats pid to 93286
+2023-04-07 15:11:11,719 INFO    MainThread:93286 [wandb_setup.py:_flush():76] Loading settings from /home/francesco/.config/wandb/settings
+2023-04-07 15:11:11,719 INFO    MainThread:93286 [wandb_setup.py:_flush():76] Loading settings from /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/settings
+2023-04-07 15:11:11,719 INFO    MainThread:93286 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-04-07 15:11:11,719 INFO    MainThread:93286 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-04-07 15:11:11,719 INFO    MainThread:93286 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'src/main.py', 'program': '/home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/main.py'}
+2023-04-07 15:11:11,719 INFO    MainThread:93286 [wandb_init.py:_log_setup():507] Logging user logs to /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_151111-65jg4b1l/logs/debug.log
+2023-04-07 15:11:11,719 INFO    MainThread:93286 [wandb_init.py:_log_setup():508] Logging internal logs to /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_151111-65jg4b1l/logs/debug-internal.log
+2023-04-07 15:11:11,719 INFO    MainThread:93286 [wandb_init.py:init():547] calling init triggers
+2023-04-07 15:11:11,719 INFO    MainThread:93286 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-04-07 15:11:11,720 INFO    MainThread:93286 [wandb_init.py:init():595] starting backend
+2023-04-07 15:11:11,720 INFO    MainThread:93286 [wandb_init.py:init():599] setting up manager
+2023-04-07 15:11:11,723 INFO    MainThread:93286 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-04-07 15:11:11,725 INFO    MainThread:93286 [wandb_init.py:init():605] backend started and connected
+2023-04-07 15:11:11,730 INFO    MainThread:93286 [wandb_init.py:init():695] updated telemetry
+2023-04-07 15:11:11,754 INFO    MainThread:93286 [wandb_init.py:init():732] communicating run to backend with 60.0 second timeout
+2023-04-07 15:11:12,158 INFO    MainThread:93286 [wandb_run.py:_on_init():2176] communicating current version
+2023-04-07 15:11:12,248 INFO    MainThread:93286 [wandb_run.py:_on_init():2185] got version response 
+2023-04-07 15:11:12,248 INFO    MainThread:93286 [wandb_init.py:init():782] starting run threads in backend
+2023-04-07 15:11:14,934 INFO    MainThread:93286 [wandb_run.py:_console_start():2157] atexit reg
+2023-04-07 15:11:14,935 INFO    MainThread:93286 [wandb_run.py:_redirect():2012] redirect: SettingsConsole.WRAP_RAW
+2023-04-07 15:11:14,935 INFO    MainThread:93286 [wandb_run.py:_redirect():2077] Wrapping output streams.
+2023-04-07 15:11:14,935 INFO    MainThread:93286 [wandb_run.py:_redirect():2102] Redirects installed.
+2023-04-07 15:11:14,936 INFO    MainThread:93286 [wandb_init.py:init():824] run started, returning control to user process

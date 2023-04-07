@@ -1,0 +1,191 @@
+
+Loading Dataset
+shape of testing label[0]: (36, 13, 13, 8)
+shape of testing label[1]: (36, 26, 26, 8)
+shape of testing label[2]: (36, 52, 52, 8)
+shape of testing img: (36, 416, 416, 3)
+shape of validation label[0]: (36, 13, 13, 8)
+shape of validation label[1]: (36, 26, 26, 8)
+shape of validation label[2]: (36, 52, 52, 8)
+shape of validation img: (36, 416, 416, 3)
+shape of training label[0]: (296, 13, 13, 8)
+shape of training label[1]: (296, 26, 26, 8)
+shape of training label[2]: (296, 52, 52, 8)
+shape of training img: (296, 416, 416, 3)
+epoch  1: loss = 0.0582
+epoch  2: loss = 0.0389
+epoch  3: loss = 0.0310
+epoch  4: loss = 0.0202
+epoch  5: loss = 0.0157
+epoch  6: loss = 0.0142
+epoch  7: loss = 0.0126
+epoch  8: loss = 0.0120
+epoch  9: loss = 0.0117
+epoch 10: loss = 0.0087
+epoch 11: loss = 0.0078
+epoch 12: loss = 0.0053
+epoch 13: loss = 0.0044
+epoch 14: loss = 0.0047
+epoch 15: loss = 0.0066
+epoch 16: loss = 0.0067
+epoch 17: loss = 0.0074
+epoch 18: loss = 0.0074
+epoch 19: loss = 0.0073
+epoch 20: loss = 0.0073
+epoch 21: loss = 0.0071
+epoch 22: loss = 0.0072
+epoch 23: loss = 0.0059
+epoch 24: loss = 0.0074
+epoch 25: loss = 0.0068
+epoch 26: loss = 0.0067
+epoch 27: loss = 0.0070
+epoch 28: loss = 0.0086
+epoch 29: loss = 0.0060
+epoch 30: loss = 0.0046
+epoch 31: loss = 0.0068
+epoch 32: loss = 0.0088
+epoch 33: loss = 0.0092
+epoch 34: loss = 0.0105
+epoch 35: loss = 0.0087
+epoch 36: loss = 0.0057
+epoch 37: loss = 0.0053
+epoch 38: loss = 0.0048
+epoch 39: loss = 0.0040
+epoch 40: loss = 0.0034
+epoch 41: loss = 0.0036
+epoch 42: loss = 0.0049
+epoch 43: loss = 0.0049
+epoch 44: loss = 0.0036
+epoch 45: loss = 0.0035
+epoch 46: loss = 0.0029
+epoch 47: loss = 0.0031
+epoch 48: loss = 0.0027
+epoch 49: loss = 0.0022
+epoch 50: loss = 0.0019
+epoch 51: loss = 0.0015
+epoch 52: loss = 0.0011
+epoch 53: loss = 0.0018
+epoch 54: loss = 0.0018
+epoch 55: loss = 0.0022
+epoch 56: loss = 0.0016
+epoch 57: loss = 0.0019
+epoch 58: loss = 0.0015
+epoch 59: loss = 0.0017
+epoch 60: loss = 0.0019
+epoch 61: loss = 0.0020
+epoch 62: loss = 0.0021
+epoch 63: loss = 0.0021
+epoch 64: loss = 0.0019
+epoch 65: loss = 0.0026
+epoch 66: loss = 0.0029
+epoch 67: loss = 0.0031
+epoch 68: loss = 0.0028
+epoch 69: loss = 0.0026
+epoch 70: loss = 0.0042
+epoch 71: loss = 0.0055
+epoch 72: loss = 0.0051
+epoch 73: loss = 0.0066
+epoch 74: loss = 0.0053
+epoch 75: loss = 0.0061
+epoch 76: loss = 0.0049
+epoch 77: loss = 0.0041
+epoch 78: loss = 0.0045
+epoch 79: loss = 0.0027
+epoch 80: loss = 0.0027
+epoch 81: loss = 0.0019
+epoch 82: loss = 0.0024
+epoch 83: loss = 0.0022
+epoch 84: loss = 0.0018
+epoch 85: loss = 0.0014
+epoch 86: loss = 0.0012
+epoch 87: loss = 0.0007
+epoch 88: loss = 0.0005
+epoch 89: loss = 0.0005
+epoch 90: loss = 0.0004
+epoch 91: loss = 0.0008
+epoch 92: loss = 0.0006
+epoch 93: loss = 0.0007
+epoch 94: loss = 0.0010
+epoch 95: loss = 0.0008
+epoch 96: loss = 0.0003
+epoch 97: loss = 0.0010
+epoch 98: loss = 0.0002
+epoch 99: loss = 0.0008
+epoch 100: loss = 0.0012
+epoch 101: loss = 0.0015
+epoch 102: loss = 0.0022
+epoch 103: loss = 0.0017
+epoch 104: loss = 0.0026
+epoch 105: loss = 0.0032
+epoch 106: loss = 0.0026
+epoch 107: loss = 0.0027
+epoch 108: loss = 0.0030
+epoch 109: loss = 0.0025
+epoch 110: loss = 0.0016
+epoch 111: loss = 0.0004
+epoch 112: loss = 0.0004
+epoch 113: loss = 0.0006
+epoch 114: loss = 0.0005
+epoch 115: loss = 0.0006
+epoch 116: loss = 0.0011
+epoch 117: loss = 0.0009
+epoch 118: loss = 0.0011
+epoch 119: loss = 0.0013
+epoch 120: loss = 0.0012
+epoch 121: loss = 0.0005
+epoch 122: loss = 0.0006
+epoch 123: loss = 0.0007
+epoch 124: loss = 0.0005
+epoch 125: loss = 0.0006
+epoch 126: loss = 0.0008
+epoch 127: loss = 0.0003
+epoch 128: loss = 0.0005
+epoch 129: loss = 0.0003
+epoch 130: loss = 0.0002
+epoch 131: loss = 0.0003
+epoch 132: loss = 0.0001
+epoch 133: loss = 0.0000
+Epoch 1/2
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7f5e0033b790> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmp31pokt6g.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7f5ef9cf20d0> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmpiyjj3vto.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7f5ef9cf2310> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmpwhntrmoh.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+ 4/60 [=>............................] - ETA: 22s - loss: 1528.6660 - concatenate_2_loss: 237.1492 - concatenate_3_loss: 466.9843 - concatenate_4_loss: 824.5325
+
+
+
+
+
+
+
+
+
+
+
+60/60 [==============================] - 41s 448ms/step - loss: 846.6479 - concatenate_2_loss: 142.7325 - concatenate_3_loss: 263.6985 - concatenate_4_loss: 440.2169 - val_loss: 488.3601 - val_concatenate_2_loss: 119.7597 - val_concatenate_3_loss: 130.1642 - val_concatenate_4_loss: 238.4362
+Epoch 2/2
+
+
+
+
+
+
+
+
+
+
+
+
+60/60 [==============================] - 24s 406ms/step - loss: 239.4619 - concatenate_2_loss: 66.4548 - concatenate_3_loss: 70.3556 - concatenate_4_loss: 102.6515 - val_loss: 329.7718 - val_concatenate_2_loss: 86.0835 - val_concatenate_3_loss: 83.6583 - val_concatenate_4_loss: 160.0300
+           precision    recall  F1-score  gts  dets
+RBC         0.155803  0.961290  0.268146  465  2869
+WBC         0.001896  0.054054  0.003663   37  1055
+Platelets   0.011734  0.230769  0.022333   39   767

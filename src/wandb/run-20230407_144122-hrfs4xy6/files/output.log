@@ -1,0 +1,115 @@
+
+Loading Dataset
+shape of testing label[0]: (36, 13, 13, 8)
+shape of testing label[1]: (36, 26, 26, 8)
+shape of testing label[2]: (36, 52, 52, 8)
+shape of testing img: (36, 416, 416, 3)
+shape of validation label[0]: (36, 13, 13, 8)
+shape of validation label[1]: (36, 26, 26, 8)
+shape of validation label[2]: (36, 52, 52, 8)
+shape of validation img: (36, 416, 416, 3)
+shape of training label[0]: (296, 13, 13, 8)
+shape of training label[1]: (296, 26, 26, 8)
+shape of training label[2]: (296, 52, 52, 8)
+shape of training img: (296, 416, 416, 3)
+epoch  1: loss = 0.1567
+epoch  2: loss = 0.0476
+epoch  3: loss = 0.0326
+epoch  4: loss = 0.0279
+epoch  5: loss = 0.0245
+epoch  6: loss = 0.0220
+epoch  7: loss = 0.0192
+epoch  8: loss = 0.0154
+epoch  9: loss = 0.0107
+epoch 10: loss = 0.0078
+epoch 11: loss = 0.0052
+epoch 12: loss = 0.0034
+epoch 13: loss = 0.0024
+epoch 14: loss = 0.0019
+epoch 15: loss = 0.0024
+epoch 16: loss = 0.0024
+epoch 17: loss = 0.0029
+epoch 18: loss = 0.0026
+epoch 19: loss = 0.0021
+epoch 20: loss = 0.0017
+epoch 21: loss = 0.0013
+epoch 22: loss = 0.0012
+epoch 23: loss = 0.0014
+epoch 24: loss = 0.0013
+epoch 25: loss = 0.0012
+epoch 26: loss = 0.0010
+epoch 27: loss = 0.0006
+epoch 28: loss = 0.0005
+epoch 29: loss = 0.0002
+epoch 30: loss = 0.0001
+epoch 31: loss = 0.0000
+Epoch 1/5
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7fb894749700> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmph20jdvop.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7fb8b443e700> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmp14ex20tc.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7fb8b443eaf0> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmp6yhuyd_r.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+Traceback (most recent call last):
+  File "/home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/main.py", line 143, in <module>
+    main()
+  File "/home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/main.py", line 115, in main
+    train_history = yolo.model.fit(
+  File "/home/francesco/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/wandb/integration/keras/keras.py", line 174, in new_v2
+    return old_v2(*args, **kwargs)
+  File "/home/francesco/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/wandb/integration/keras/keras.py", line 174, in new_v2
+    return old_v2(*args, **kwargs)
+  File "/home/francesco/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/wandb/integration/keras/keras.py", line 174, in new_v2
+    return old_v2(*args, **kwargs)
+  File "/home/francesco/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/tensorflow/python/keras/engine/training.py", line 1100, in fit
+    tmp_logs = self.train_function(iterator)
+  File "/home/francesco/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/tensorflow/python/eager/def_function.py", line 828, in __call__
+    result = self._call(*args, **kwds)
+  File "/home/francesco/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/tensorflow/python/eager/def_function.py", line 871, in _call
+    self._initialize(args, kwds, add_initializers_to=initializers)
+  File "/home/francesco/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/tensorflow/python/eager/def_function.py", line 725, in _initialize
+    self._stateful_fn._get_concrete_function_internal_garbage_collected(  # pylint: disable=protected-access
+  File "/home/francesco/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/tensorflow/python/eager/function.py", line 2969, in _get_concrete_function_internal_garbage_collected
+    graph_function, _ = self._maybe_define_function(args, kwargs)
+  File "/home/francesco/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/tensorflow/python/eager/function.py", line 3361, in _maybe_define_function
+    graph_function = self._create_graph_function(args, kwargs)
+  File "/home/francesco/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/tensorflow/python/eager/function.py", line 3196, in _create_graph_function
+    func_graph_module.func_graph_from_py_func(
+  File "/home/francesco/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/tensorflow/python/framework/func_graph.py", line 990, in func_graph_from_py_func
+    func_outputs = python_func(*func_args, **func_kwargs)
+  File "/home/francesco/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/tensorflow/python/eager/def_function.py", line 634, in wrapped_fn
+    out = weak_wrapped_fn().__wrapped__(*args, **kwds)
+  File "/home/francesco/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/tensorflow/python/framework/func_graph.py", line 977, in wrapper
+    raise e.ag_error_metadata.to_exception(e)
+ValueError: in user code:
+    /home/francesco/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/tensorflow/python/keras/engine/training.py:805 train_function  *
+        return step_function(self, iterator)
+    /home/francesco/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/tensorflow/python/keras/engine/training.py:795 step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    /home/francesco/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/tensorflow/python/distribute/distribute_lib.py:1259 run
+        return self._extended.call_for_each_replica(fn, args=args, kwargs=kwargs)
+    /home/francesco/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/tensorflow/python/distribute/distribute_lib.py:2730 call_for_each_replica
+        return self._call_for_each_replica(fn, args, kwargs)
+    /home/francesco/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/tensorflow/python/distribute/distribute_lib.py:3417 _call_for_each_replica
+        return fn(*args, **kwargs)
+    /home/francesco/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/tensorflow/python/keras/engine/training.py:788 run_step  **
+        outputs = model.train_step(data)
+    /home/francesco/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/tensorflow/python/keras/engine/training.py:758 train_step
+        self.compiled_metrics.update_state(y, y_pred, sample_weight)
+    /home/francesco/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/tensorflow/python/keras/engine/compile_utils.py:387 update_state
+        self.build(y_pred, y_true)
+    /home/francesco/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/tensorflow/python/keras/engine/compile_utils.py:317 build
+        self._metrics = nest.map_structure_up_to(y_pred, self._get_metric_objects,
+    /home/francesco/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/tensorflow/python/util/nest.py:1159 map_structure_up_to
+        return map_structure_with_tuple_paths_up_to(
+    /home/francesco/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/tensorflow/python/util/nest.py:1241 map_structure_with_tuple_paths_up_to
+        assert_shallow_structure(
+    /home/francesco/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/tensorflow/python/util/nest.py:876 assert_shallow_structure
+        raise ValueError(
+    ValueError: The two structures don't have the same sequence length. Input structure has length 4, while shallow structure has length 3.

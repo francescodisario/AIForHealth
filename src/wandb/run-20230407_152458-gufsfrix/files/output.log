@@ -1,0 +1,176 @@
+
+Loading Dataset
+shape of testing label[0]: (36, 13, 13, 8)
+shape of testing label[1]: (36, 26, 26, 8)
+shape of testing label[2]: (36, 52, 52, 8)
+shape of testing img: (36, 416, 416, 3)
+shape of validation label[0]: (36, 13, 13, 8)
+shape of validation label[1]: (36, 26, 26, 8)
+shape of validation label[2]: (36, 52, 52, 8)
+shape of validation img: (36, 416, 416, 3)
+shape of training label[0]: (296, 13, 13, 8)
+shape of training label[1]: (296, 26, 26, 8)
+shape of training label[2]: (296, 52, 52, 8)
+shape of training img: (296, 416, 416, 3)
+epoch  1: loss = 0.1514
+epoch  2: loss = 0.0254
+epoch  3: loss = 0.0132
+epoch  4: loss = 0.0141
+epoch  5: loss = 0.0136
+epoch  6: loss = 0.0158
+epoch  7: loss = 0.0142
+epoch  8: loss = 0.0145
+epoch  9: loss = 0.0132
+epoch 10: loss = 0.0123
+epoch 11: loss = 0.0119
+epoch 12: loss = 0.0119
+epoch 13: loss = 0.0079
+epoch 14: loss = 0.0089
+epoch 15: loss = 0.0086
+epoch 16: loss = 0.0097
+epoch 17: loss = 0.0088
+epoch 18: loss = 0.0060
+epoch 19: loss = 0.0047
+epoch 20: loss = 0.0048
+epoch 21: loss = 0.0058
+epoch 22: loss = 0.0049
+epoch 23: loss = 0.0061
+epoch 24: loss = 0.0051
+epoch 25: loss = 0.0046
+epoch 26: loss = 0.0061
+epoch 27: loss = 0.0040
+epoch 28: loss = 0.0054
+epoch 29: loss = 0.0071
+epoch 30: loss = 0.0081
+epoch 31: loss = 0.0067
+epoch 32: loss = 0.0050
+epoch 33: loss = 0.0042
+epoch 34: loss = 0.0055
+epoch 35: loss = 0.0058
+epoch 36: loss = 0.0055
+epoch 37: loss = 0.0053
+epoch 38: loss = 0.0034
+epoch 39: loss = 0.0021
+epoch 40: loss = 0.0015
+epoch 41: loss = 0.0014
+epoch 42: loss = 0.0011
+epoch 43: loss = 0.0014
+epoch 44: loss = 0.0019
+epoch 45: loss = 0.0021
+epoch 46: loss = 0.0019
+epoch 47: loss = 0.0016
+epoch 48: loss = 0.0013
+epoch 49: loss = 0.0017
+epoch 50: loss = 0.0021
+epoch 51: loss = 0.0020
+epoch 52: loss = 0.0021
+epoch 53: loss = 0.0016
+epoch 54: loss = 0.0024
+epoch 55: loss = 0.0028
+epoch 56: loss = 0.0015
+epoch 57: loss = 0.0018
+epoch 58: loss = 0.0020
+epoch 59: loss = 0.0031
+epoch 60: loss = 0.0052
+epoch 61: loss = 0.0062
+epoch 62: loss = 0.0063
+epoch 63: loss = 0.0056
+epoch 64: loss = 0.0055
+epoch 65: loss = 0.0049
+epoch 66: loss = 0.0050
+epoch 67: loss = 0.0036
+epoch 68: loss = 0.0024
+epoch 69: loss = 0.0012
+epoch 70: loss = 0.0015
+epoch 71: loss = 0.0016
+epoch 72: loss = 0.0017
+epoch 73: loss = 0.0028
+epoch 74: loss = 0.0013
+epoch 75: loss = 0.0007
+epoch 76: loss = 0.0005
+epoch 77: loss = 0.0002
+epoch 78: loss = 0.0002
+epoch 79: loss = 0.0000
+Epoch 1/5
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7fcf73cb4b80> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmppddaek16.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7fce50093040> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmp2j97kn6i.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7fce50093280> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmpkjf9903y.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+
+ 8/60 [===>..........................] - ETA: 19s - loss: 817.9975 - concatenate_2_loss: 152.7004 - concatenate_3_loss: 203.2601 - concatenate_4_loss: 462.0369
+
+
+
+
+
+
+
+
+
+
+60/60 [==============================] - 42s 447ms/step - loss: 534.6450 - concatenate_2_loss: 113.1054 - concatenate_3_loss: 128.8019 - concatenate_4_loss: 292.7376 - val_loss: 341.8892 - val_concatenate_2_loss: 91.5742 - val_concatenate_3_loss: 99.8966 - val_concatenate_4_loss: 150.4183
+Epoch 2/5
+
+
+
+
+
+
+
+
+
+
+
+60/60 [==============================] - 24s 404ms/step - loss: 171.8352 - concatenate_2_loss: 53.6814 - concatenate_3_loss: 41.3115 - concatenate_4_loss: 76.8424 - val_loss: 253.5130 - val_concatenate_2_loss: 68.7830 - val_concatenate_3_loss: 62.5144 - val_concatenate_4_loss: 122.2157
+Epoch 3/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+60/60 [==============================] - 29s 491ms/step - loss: 114.1722 - concatenate_2_loss: 42.1487 - concatenate_3_loss: 28.0346 - concatenate_4_loss: 43.9889 - val_loss: 210.8939 - val_concatenate_2_loss: 59.7245 - val_concatenate_3_loss: 51.3215 - val_concatenate_4_loss: 99.8479
+Epoch 4/5
+ 7/60 [==>...........................] - ETA: 22s - loss: 84.2014 - concatenate_2_loss: 33.8840 - concatenate_3_loss: 19.7649 - concatenate_4_loss: 30.5525
+11/60 [====>.........................] - ETA: 22s - loss: 84.7367 - concatenate_2_loss: 33.9363 - concatenate_3_loss: 20.1453 - concatenate_4_loss: 30.6551
+16/60 [=======>......................] - ETA: 19s - loss: 84.0356 - concatenate_2_loss: 33.4172 - concatenate_3_loss: 20.1215 - concatenate_4_loss: 30.4969
+21/60 [=========>....................] - ETA: 16s - loss: 83.3230 - concatenate_2_loss: 33.0224 - concatenate_3_loss: 20.0026 - concatenate_4_loss: 30.2980
+26/60 [============>.................] - ETA: 14s - loss: 82.8030 - concatenate_2_loss: 32.7272 - concatenate_3_loss: 19.9566 - concatenate_4_loss: 30.1192
+32/60 [===============>..............] - ETA: 11s - loss: 82.3827 - concatenate_2_loss: 32.5288 - concatenate_3_loss: 19.9213 - concatenate_4_loss: 29.9326
+35/60 [================>.............] - ETA: 10s - loss: 82.2475 - concatenate_2_loss: 32.4590 - concatenate_3_loss: 19.9310 - concatenate_4_loss: 29.8576
+40/60 [===================>..........] - ETA: 8s - loss: 82.0001 - concatenate_2_loss: 32.3475 - concatenate_3_loss: 19.9327 - concatenate_4_loss: 29.7199
+45/60 [=====================>........] - ETA: 6s - loss: 81.7210 - concatenate_2_loss: 32.2209 - concatenate_3_loss: 19.9240 - concatenate_4_loss: 29.5762
+51/60 [========================>.....] - ETA: 3s - loss: 81.3242 - concatenate_2_loss: 32.0487 - concatenate_3_loss: 19.8893 - concatenate_4_loss: 29.3862
+56/60 [===========================>..] - ETA: 1s - loss: 81.0127 - concatenate_2_loss: 31.9110 - concatenate_3_loss: 19.8632 - concatenate_4_loss: 29.2385
+60/60 [==============================] - ETA: 0s - loss: 80.7723 - concatenate_2_loss: 31.8040 - concatenate_3_loss: 19.8436 - concatenate_4_loss: 29.1247
+ 3/60 [>.............................] - ETA: 24s - loss: 66.9877 - concatenate_2_loss: 24.5771 - concatenate_3_loss: 17.3315 - concatenate_4_loss: 25.07929.0981 - val_loss: 190.9216 - val_concatenate_2_loss: 55.6773 - val_concatenate_3_loss: 47.3069 - val_concatenate_4_loss: 87.9374
+ 8/60 [===>..........................] - ETA: 20s - loss: 66.6234 - concatenate_2_loss: 24.8089 - concatenate_3_loss: 17.4603 - concatenate_4_loss: 24.35429.0981 - val_loss: 190.9216 - val_concatenate_2_loss: 55.6773 - val_concatenate_3_loss: 47.3069 - val_concatenate_4_loss: 87.9374
+14/60 [======>.......................] - ETA: 17s - loss: 66.9142 - concatenate_2_loss: 25.0131 - concatenate_3_loss: 17.6204 - concatenate_4_loss: 24.28079.0981 - val_loss: 190.9216 - val_concatenate_2_loss: 55.6773 - val_concatenate_3_loss: 47.3069 - val_concatenate_4_loss: 87.9374
+19/60 [========>.....................] - ETA: 15s - loss: 67.0374 - concatenate_2_loss: 25.1293 - concatenate_3_loss: 17.6930 - concatenate_4_loss: 24.21519.0981 - val_loss: 190.9216 - val_concatenate_2_loss: 55.6773 - val_concatenate_3_loss: 47.3069 - val_concatenate_4_loss: 87.9374
+24/60 [===========>..................] - ETA: 14s - loss: 66.7714 - concatenate_2_loss: 25.1102 - concatenate_3_loss: 17.6334 - concatenate_4_loss: 24.02789.0981 - val_loss: 190.9216 - val_concatenate_2_loss: 55.6773 - val_concatenate_3_loss: 47.3069 - val_concatenate_4_loss: 87.9374
+28/60 [=============>................] - ETA: 13s - loss: 66.5204 - concatenate_2_loss: 25.0752 - concatenate_3_loss: 17.5694 - concatenate_4_loss: 23.87599.0981 - val_loss: 190.9216 - val_concatenate_2_loss: 55.6773 - val_concatenate_3_loss: 47.3069 - val_concatenate_4_loss: 87.9374
+33/60 [===============>..............] - ETA: 10s - loss: 66.0421 - concatenate_2_loss: 24.9431 - concatenate_3_loss: 17.4418 - concatenate_4_loss: 23.65739.0981 - val_loss: 190.9216 - val_concatenate_2_loss: 55.6773 - val_concatenate_3_loss: 47.3069 - val_concatenate_4_loss: 87.9374
+38/60 [==================>...........] - ETA: 8s - loss: 65.5678 - concatenate_2_loss: 24.8097 - concatenate_3_loss: 17.3175 - concatenate_4_loss: 23.4406 9.0981 - val_loss: 190.9216 - val_concatenate_2_loss: 55.6773 - val_concatenate_3_loss: 47.3069 - val_concatenate_4_loss: 87.9374
+44/60 [=====================>........] - ETA: 6s - loss: 65.0745 - concatenate_2_loss: 24.6563 - concatenate_3_loss: 17.1983 - concatenate_4_loss: 23.2199 9.0981 - val_loss: 190.9216 - val_concatenate_2_loss: 55.6773 - val_concatenate_3_loss: 47.3069 - val_concatenate_4_loss: 87.9374
+49/60 [=======================>......] - ETA: 4s - loss: 64.7505 - concatenate_2_loss: 24.5716 - concatenate_3_loss: 17.1199 - concatenate_4_loss: 23.0590 9.0981 - val_loss: 190.9216 - val_concatenate_2_loss: 55.6773 - val_concatenate_3_loss: 47.3069 - val_concatenate_4_loss: 87.9374
+53/60 [=========================>....] - ETA: 2s - loss: 64.4975 - concatenate_2_loss: 24.5071 - concatenate_3_loss: 17.0555 - concatenate_4_loss: 22.9349 9.0981 - val_loss: 190.9216 - val_concatenate_2_loss: 55.6773 - val_concatenate_3_loss: 47.3069 - val_concatenate_4_loss: 87.9374
+58/60 [============================>.] - ETA: 0s - loss: 64.2042 - concatenate_2_loss: 24.4334 - concatenate_3_loss: 16.9797 - concatenate_4_loss: 22.7911 9.0981 - val_loss: 190.9216 - val_concatenate_2_loss: 55.6773 - val_concatenate_3_loss: 47.3069 - val_concatenate_4_loss: 87.9374
+60/60 [==============================] - 25s 413ms/step - loss: 64.0457 - concatenate_2_loss: 24.3949 - concatenate_3_loss: 16.9380 - concatenate_4_loss: 22.7127 - val_loss: 180.0148 - val_concatenate_2_loss: 52.9482 - val_concatenate_3_loss: 45.1465 - val_concatenate_4_loss: 81.9201
+Platelets   0.150685  0.846154  0.255814   39   219step - loss: 64.0457 - concatenate_2_loss: 24.3949 - concatenate_3_loss: 16.9380 - concatenate_4_loss: 22.7127 - val_loss: 180.0148 - val_concatenate_2_loss: 52.9482 - val_concatenate_3_loss: 45.1465 - val_concatenate_4_loss: 81.9201
+Platelets   0.150685  0.846154  0.255814   39   219step - loss: 64.0457 - concatenate_2_loss: 24.3949 - concatenate_3_loss: 16.9380 - concatenate_4_loss: 22.7127 - val_loss: 180.0148 - val_concatenate_2_loss: 52.9482 - val_concatenate_3_loss: 45.1465 - val_concatenate_4_loss: 81.9201

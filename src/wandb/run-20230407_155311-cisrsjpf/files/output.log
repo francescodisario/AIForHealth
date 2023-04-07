@@ -1,0 +1,148 @@
+
+Loading Dataset
+shape of testing label[0]: (36, 13, 13, 8)
+shape of testing label[1]: (36, 26, 26, 8)
+shape of testing label[2]: (36, 52, 52, 8)
+shape of testing img: (36, 416, 416, 3)
+shape of validation label[0]: (36, 13, 13, 8)
+shape of validation label[1]: (36, 26, 26, 8)
+shape of validation label[2]: (36, 52, 52, 8)
+shape of validation img: (36, 416, 416, 3)
+shape of training label[0]: (296, 13, 13, 8)
+shape of training label[1]: (296, 26, 26, 8)
+shape of training label[2]: (296, 52, 52, 8)
+shape of training img: (296, 416, 416, 3)
+epoch  1: loss = 0.1035
+epoch  2: loss = 0.0715
+epoch  3: loss = 0.0579
+epoch  4: loss = 0.0444
+epoch  5: loss = 0.0299
+epoch  6: loss = 0.0234
+epoch  7: loss = 0.0199
+epoch  8: loss = 0.0157
+epoch  9: loss = 0.0209
+epoch 10: loss = 0.0211
+epoch 11: loss = 0.0227
+epoch 12: loss = 0.0242
+epoch 13: loss = 0.0316
+epoch 14: loss = 0.0236
+epoch 15: loss = 0.0214
+epoch 16: loss = 0.0164
+epoch 17: loss = 0.0157
+epoch 18: loss = 0.0107
+epoch 19: loss = 0.0111
+epoch 20: loss = 0.0105
+epoch 21: loss = 0.0071
+epoch 22: loss = 0.0079
+epoch 23: loss = 0.0076
+epoch 24: loss = 0.0084
+epoch 25: loss = 0.0095
+epoch 26: loss = 0.0097
+epoch 27: loss = 0.0099
+epoch 28: loss = 0.0093
+epoch 29: loss = 0.0118
+epoch 30: loss = 0.0122
+epoch 31: loss = 0.0107
+epoch 32: loss = 0.0109
+epoch 33: loss = 0.0081
+epoch 34: loss = 0.0115
+epoch 35: loss = 0.0145
+epoch 36: loss = 0.0191
+epoch 37: loss = 0.0186
+epoch 38: loss = 0.0251
+epoch 39: loss = 0.0195
+epoch 40: loss = 0.0233
+epoch 41: loss = 0.0223
+epoch 42: loss = 0.0150
+epoch 43: loss = 0.0127
+epoch 44: loss = 0.0117
+epoch 45: loss = 0.0092
+epoch 46: loss = 0.0081
+epoch 47: loss = 0.0058
+epoch 48: loss = 0.0046
+epoch 49: loss = 0.0046
+epoch 50: loss = 0.0051
+epoch 51: loss = 0.0045
+epoch 52: loss = 0.0043
+epoch 53: loss = 0.0038
+epoch 54: loss = 0.0026
+epoch 55: loss = 0.0032
+epoch 56: loss = 0.0025
+epoch 57: loss = 0.0030
+epoch 58: loss = 0.0027
+epoch 59: loss = 0.0035
+epoch 60: loss = 0.0032
+epoch 61: loss = 0.0030
+epoch 62: loss = 0.0032
+epoch 63: loss = 0.0032
+epoch 64: loss = 0.0033
+epoch 65: loss = 0.0031
+epoch 66: loss = 0.0027
+epoch 67: loss = 0.0034
+epoch 68: loss = 0.0029
+epoch 69: loss = 0.0021
+epoch 70: loss = 0.0018
+epoch 71: loss = 0.0017
+epoch 72: loss = 0.0035
+epoch 73: loss = 0.0027
+epoch 74: loss = 0.0036
+epoch 75: loss = 0.0027
+epoch 76: loss = 0.0018
+epoch 77: loss = 0.0020
+epoch 78: loss = 0.0024
+epoch 79: loss = 0.0029
+epoch 80: loss = 0.0025
+epoch 81: loss = 0.0027
+epoch 82: loss = 0.0031
+epoch 83: loss = 0.0031
+epoch 84: loss = 0.0021
+epoch 85: loss = 0.0008
+epoch 86: loss = 0.0008
+epoch 87: loss = 0.0007
+epoch 88: loss = 0.0008
+epoch 89: loss = 0.0001
+epoch 90: loss = 0.0000
+Epoch 1/2
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7f5e00158dc0> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmpwjdmjzxq.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7f5e8c1e0820> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmpbqag5x71.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7f5e8c1e0d30> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmpeq5yoaii.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+
+10/60 [====>.........................] - ETA: 19s - loss: 1025.6598 - concatenate_2_loss: 174.0592 - concatenate_3_loss: 213.1021 - concatenate_4_loss: 638.4985
+
+
+
+
+
+
+
+
+
+
+60/60 [==============================] - 39s 439ms/step - loss: 680.4429 - concatenate_2_loss: 129.4497 - concatenate_3_loss: 139.5965 - concatenate_4_loss: 411.3967 - val_loss: 336.4999 - val_concatenate_2_loss: 92.9495 - val_concatenate_3_loss: 88.3326 - val_concatenate_4_loss: 155.2178
+Epoch 2/2
+
+
+
+
+
+
+
+
+
+
+
+
+60/60 [==============================] - 24s 402ms/step - loss: 189.9127 - concatenate_2_loss: 62.1394 - concatenate_3_loss: 44.4769 - concatenate_4_loss: 83.2964 - val_loss: 270.6690 - val_concatenate_2_loss: 70.4997 - val_concatenate_3_loss: 66.0441 - val_concatenate_4_loss: 134.1252
+           precision    recall  F1-score  gts  dets
+RBC         0.211473  0.935484  0.344964  465  2057
+WBC         0.000000  0.000000       NaN   37   337
+Platelets   0.001751  0.025641  0.003279   39   571

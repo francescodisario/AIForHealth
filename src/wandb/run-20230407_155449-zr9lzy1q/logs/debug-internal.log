@@ -1,0 +1,331 @@
+2023-04-07 15:54:49,586 INFO    StreamThr :103757 [internal.py:wandb_internal():86] W&B internal server running at pid: 103757, started at: 2023-04-07 15:54:49.585886
+2023-04-07 15:54:49,587 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: status
+2023-04-07 15:54:49,597 INFO    WriterThread:103757 [datastore.py:open_for_write():85] open: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/run-zr9lzy1q.wandb
+2023-04-07 15:54:49,598 DEBUG   SenderThread:103757 [sender.py:send():375] send: header
+2023-04-07 15:54:49,728 DEBUG   SenderThread:103757 [sender.py:send():375] send: run
+2023-04-07 15:54:50,189 INFO    SenderThread:103757 [dir_watcher.py:__init__():219] watching files in: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files
+2023-04-07 15:54:50,189 INFO    SenderThread:103757 [sender.py:_start_run_threads():1124] run started: zr9lzy1q with start time 1680875689.588374
+2023-04-07 15:54:50,189 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: summary_record
+2023-04-07 15:54:50,189 INFO    SenderThread:103757 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-07 15:54:50,196 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: check_version
+2023-04-07 15:54:50,196 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: check_version
+2023-04-07 15:54:50,308 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: run_start
+2023-04-07 15:54:50,318 DEBUG   HandlerThread:103757 [system_info.py:__init__():31] System info init
+2023-04-07 15:54:50,318 DEBUG   HandlerThread:103757 [system_info.py:__init__():46] System info init done
+2023-04-07 15:54:50,318 INFO    HandlerThread:103757 [system_monitor.py:start():181] Starting system monitor
+2023-04-07 15:54:50,318 INFO    SystemMonitor:103757 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-04-07 15:54:50,319 INFO    HandlerThread:103757 [system_monitor.py:probe():201] Collecting system info
+2023-04-07 15:54:50,319 INFO    SystemMonitor:103757 [interfaces.py:start():190] Started cpu monitoring
+2023-04-07 15:54:50,320 INFO    SystemMonitor:103757 [interfaces.py:start():190] Started disk monitoring
+2023-04-07 15:54:50,321 INFO    SystemMonitor:103757 [interfaces.py:start():190] Started gpu monitoring
+2023-04-07 15:54:50,322 INFO    SystemMonitor:103757 [interfaces.py:start():190] Started memory monitoring
+2023-04-07 15:54:50,323 INFO    SystemMonitor:103757 [interfaces.py:start():190] Started network monitoring
+2023-04-07 15:54:50,329 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:54:50,330 DEBUG   HandlerThread:103757 [system_info.py:probe():195] Probing system
+2023-04-07 15:54:50,337 DEBUG   HandlerThread:103757 [system_info.py:_probe_git():180] Probing git
+2023-04-07 15:54:50,361 DEBUG   HandlerThread:103757 [system_info.py:_probe_git():188] Probing git done
+2023-04-07 15:54:50,361 DEBUG   HandlerThread:103757 [system_info.py:probe():240] Probing system done
+2023-04-07 15:54:50,361 DEBUG   HandlerThread:103757 [system_monitor.py:probe():210] {'os': 'Linux-5.19.0-26-generic-x86_64-with-glibc2.36', 'python': '3.9.16', 'heartbeatAt': '2023-04-07T13:54:50.330150', 'startedAt': '2023-04-07T13:54:49.571364', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/main.py', 'codePath': 'src/main.py', 'git': {'remote': 'git@github.com:EIDOSLAB/AI_healt-BISS.git', 'commit': 'b2dc1dbc996e8b6bff54a51bf46404d1ed45e65d'}, 'email': 'fradisario18@gmail.com', 'root': '/home/francesco/Scrivania/AIForHealth/AI_healt-BISS', 'host': 'francesco', 'username': 'francesco', 'executable': '/home/francesco/anaconda3/envs/tf-gpu/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2800.0065, 'min': 800.0, 'max': 2800.0}, 'cpu_freq_per_core': [{'current': 2799.985, 'min': 800.0, 'max': 2800.0}, {'current': 2799.998, 'min': 800.0, 'max': 2800.0}, {'current': 2800.0, 'min': 800.0, 'max': 2800.0}, {'current': 2800.044, 'min': 800.0, 'max': 2800.0}, {'current': 2800.014, 'min': 800.0, 'max': 2800.0}, {'current': 2799.99, 'min': 800.0, 'max': 2800.0}, {'current': 2800.009, 'min': 800.0, 'max': 2800.0}, {'current': 2799.994, 'min': 800.0, 'max': 2800.0}], 'disk': {'total': 183.41388320922852, 'used': 98.87536239624023}, 'gpu': 'NVIDIA GeForce GTX 1070', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1070', 'memory_total': 8589934592}], 'memory': {'total': 15.583377838134766}}
+2023-04-07 15:54:50,361 INFO    HandlerThread:103757 [system_monitor.py:probe():211] Finished collecting system info
+2023-04-07 15:54:50,361 INFO    HandlerThread:103757 [system_monitor.py:probe():214] Publishing system info
+2023-04-07 15:54:50,361 DEBUG   HandlerThread:103757 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-04-07 15:54:50,362 DEBUG   HandlerThread:103757 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-07 15:54:50,362 DEBUG   HandlerThread:103757 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-04-07 15:54:51,191 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_created():278] file/dir created: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/wandb-summary.json
+2023-04-07 15:54:51,192 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_created():278] file/dir created: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/requirements.txt
+2023-04-07 15:54:51,192 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_created():278] file/dir created: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/conda-environment.yaml
+2023-04-07 15:54:52,332 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:54:52,967 DEBUG   HandlerThread:103757 [system_info.py:_save_conda():86] Saving conda packages done
+2023-04-07 15:54:52,968 INFO    HandlerThread:103757 [system_monitor.py:probe():216] Finished publishing system info
+2023-04-07 15:54:52,976 DEBUG   SenderThread:103757 [sender.py:send():375] send: files
+2023-04-07 15:54:52,976 INFO    SenderThread:103757 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-04-07 15:54:52,982 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-07 15:54:52,983 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: stop_status
+2023-04-07 15:54:53,197 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/conda-environment.yaml
+2023-04-07 15:54:53,197 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_created():278] file/dir created: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/wandb-metadata.json
+2023-04-07 15:54:53,215 DEBUG   SenderThread:103757 [sender.py:send():375] send: telemetry
+2023-04-07 15:54:53,569 INFO    wandb-upload_0:103757 [upload_job.py:push():137] Uploaded file /tmp/tmp7fmi5zk0wandb/65aox5r8-wandb-metadata.json
+2023-04-07 15:54:54,193 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_created():278] file/dir created: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:54:54,335 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:54:55,219 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 15:54:56,194 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:54:56,340 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:54:58,346 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:00,220 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 15:55:00,352 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:02,356 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:04,362 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:05,811 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 15:55:06,198 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:55:06,366 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:07,888 DEBUG   SenderThread:103757 [sender.py:send():375] send: telemetry
+2023-04-07 15:55:07,890 DEBUG   SenderThread:103757 [sender.py:send():375] send: metric
+2023-04-07 15:55:07,890 DEBUG   SenderThread:103757 [sender.py:send():375] send: telemetry
+2023-04-07 15:55:07,890 DEBUG   SenderThread:103757 [sender.py:send():375] send: metric
+2023-04-07 15:55:07,890 WARNING SenderThread:103757 [sender.py:send_metric():1329] Seen metric with glob (shouldn't happen)
+2023-04-07 15:55:07,983 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-07 15:55:07,983 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: stop_status
+2023-04-07 15:55:08,199 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:55:08,370 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:10,199 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:55:10,373 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:10,921 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 15:55:12,378 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:13,201 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:55:14,381 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:16,386 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:16,518 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 15:55:18,390 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:20,477 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:21,524 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 15:55:22,204 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/config.yaml
+2023-04-07 15:55:22,480 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:22,983 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-07 15:55:22,983 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: stop_status
+2023-04-07 15:55:24,484 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:26,487 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:26,881 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 15:55:28,206 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:55:28,498 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:29,206 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:55:30,207 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:55:30,509 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:31,990 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 15:55:32,207 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:55:32,548 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:34,208 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:55:34,551 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:36,209 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:55:36,562 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:37,104 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 15:55:37,983 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-07 15:55:37,984 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: stop_status
+2023-04-07 15:55:38,210 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:55:38,571 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:40,211 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:55:40,577 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:42,211 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:55:42,450 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 15:55:42,580 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:44,212 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:55:44,583 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:46,213 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:55:46,601 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:47,649 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 15:55:48,214 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:55:48,614 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:50,215 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:55:50,323 DEBUG   SystemMonitor:103757 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-04-07 15:55:50,325 DEBUG   SenderThread:103757 [sender.py:send():375] send: stats
+2023-04-07 15:55:50,683 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:52,552 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-07 15:55:52,556 DEBUG   SenderThread:103757 [sender.py:send():375] send: metric
+2023-04-07 15:55:52,557 DEBUG   SenderThread:103757 [sender.py:send():375] send: metric
+2023-04-07 15:55:52,557 DEBUG   SenderThread:103757 [sender.py:send():375] send: metric
+2023-04-07 15:55:52,557 DEBUG   SenderThread:103757 [sender.py:send():375] send: metric
+2023-04-07 15:55:52,557 DEBUG   SenderThread:103757 [sender.py:send():375] send: metric
+2023-04-07 15:55:52,557 DEBUG   SenderThread:103757 [sender.py:send():375] send: metric
+2023-04-07 15:55:52,557 DEBUG   SenderThread:103757 [sender.py:send():375] send: metric
+2023-04-07 15:55:52,558 DEBUG   SenderThread:103757 [sender.py:send():375] send: metric
+2023-04-07 15:55:52,558 DEBUG   SenderThread:103757 [sender.py:send():375] send: metric
+2023-04-07 15:55:52,558 DEBUG   SenderThread:103757 [sender.py:send():375] send: metric
+2023-04-07 15:55:52,558 DEBUG   SenderThread:103757 [sender.py:send():375] send: history
+2023-04-07 15:55:52,558 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: summary_record
+2023-04-07 15:55:52,559 INFO    SenderThread:103757 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-07 15:55:52,713 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:52,961 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 15:55:52,983 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-07 15:55:53,176 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: stop_status
+2023-04-07 15:55:53,216 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/wandb-summary.json
+2023-04-07 15:55:53,216 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/config.yaml
+2023-04-07 15:55:54,217 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:55:54,723 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:56,217 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:55:56,737 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:55:58,218 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:55:58,399 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 15:55:58,755 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:56:00,222 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:56:00,759 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:56:02,224 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:56:02,774 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:56:03,581 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 15:56:04,224 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:56:04,781 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:56:06,225 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:56:06,791 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:56:07,983 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-07 15:56:07,984 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: stop_status
+2023-04-07 15:56:08,226 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:56:08,697 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 15:56:08,830 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:56:10,226 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:56:10,846 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:56:12,227 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:56:12,867 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:56:13,782 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 15:56:14,228 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:56:14,878 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:56:16,229 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:56:16,720 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-07 15:56:16,722 DEBUG   SenderThread:103757 [sender.py:send():375] send: history
+2023-04-07 15:56:16,723 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: summary_record
+2023-04-07 15:56:16,723 INFO    SenderThread:103757 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-07 15:56:16,881 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:56:17,229 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/wandb-summary.json
+2023-04-07 15:56:18,230 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:56:18,896 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:56:19,724 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 15:56:20,326 DEBUG   SenderThread:103757 [sender.py:send():375] send: stats
+2023-04-07 15:56:20,970 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:56:22,973 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:56:22,996 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-07 15:56:22,997 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: stop_status
+2023-04-07 15:56:23,588 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-07 15:56:23,588 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: log_artifact
+2023-04-07 15:56:23,604 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-07 15:56:24,235 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_created():278] file/dir created: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/media/table/test/score_metrics_2_9b8ea65531a3d5d618e0.table.json
+2023-04-07 15:56:24,236 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_created():278] file/dir created: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/media/table
+2023-04-07 15:56:24,237 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_created():278] file/dir created: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/media
+2023-04-07 15:56:24,237 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_created():278] file/dir created: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/media/table/test
+2023-04-07 15:56:24,612 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-07 15:56:24,756 INFO    wandb-upload_0:103757 [upload_job.py:push():137] Uploaded file /tmp/tmp7fmi5zk0wandb/vb9ak4fo-media/table/test/score_metrics_2_9b8ea65531a3d5d618e0.table.json
+2023-04-07 15:56:24,833 INFO    wandb-upload_1:103757 [upload_job.py:push():95] Uploaded file /home/francesco/.local/share/wandb/artifacts/staging/tmpm0mrmcs0
+2023-04-07 15:56:24,976 ERROR   gpu       :103757 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-07 15:56:25,661 INFO    SenderThread:103757 [sender.py:send_request_log_artifact():1438] logged artifact run-zr9lzy1q-testscore_metrics - {'id': 'QXJ0aWZhY3Q6NDE2Nzc1NjIy', 'digest': '8951363bccb184a201aaba71e8f2a818', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxMjQ0OTE2', 'latestArtifact': None}, 'version': 'latest'}
+2023-04-07 15:56:25,661 DEBUG   SenderThread:103757 [sender.py:send():375] send: files
+2023-04-07 15:56:25,661 INFO    SenderThread:103757 [sender.py:_save_file():1378] saving file media/table/test/score_metrics_2_9b8ea65531a3d5d618e0.table.json with policy now
+2023-04-07 15:56:25,661 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 15:56:25,662 DEBUG   SenderThread:103757 [sender.py:send():375] send: history
+2023-04-07 15:56:25,663 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: summary_record
+2023-04-07 15:56:25,664 INFO    SenderThread:103757 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-07 15:56:25,664 DEBUG   SenderThread:103757 [sender.py:send():375] send: telemetry
+2023-04-07 15:56:25,664 DEBUG   SenderThread:103757 [sender.py:send():375] send: exit
+2023-04-07 15:56:25,664 INFO    SenderThread:103757 [sender.py:send_exit():598] handling exit code: 0
+2023-04-07 15:56:25,664 INFO    SenderThread:103757 [sender.py:send_exit():600] handling runtime: 93
+2023-04-07 15:56:25,669 INFO    SenderThread:103757 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-07 15:56:25,669 INFO    SenderThread:103757 [sender.py:send_exit():606] send defer
+2023-04-07 15:56:25,669 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: poll_exit
+2023-04-07 15:56:25,669 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 15:56:25,669 INFO    HandlerThread:103757 [handler.py:handle_request_defer():170] handle defer: 0
+2023-04-07 15:56:25,670 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: defer
+2023-04-07 15:56:25,670 INFO    SenderThread:103757 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-04-07 15:56:25,670 INFO    SenderThread:103757 [sender.py:transition_state():626] send defer: 1
+2023-04-07 15:56:25,670 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 15:56:25,670 INFO    HandlerThread:103757 [handler.py:handle_request_defer():170] handle defer: 1
+2023-04-07 15:56:25,671 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: defer
+2023-04-07 15:56:25,671 INFO    SenderThread:103757 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-04-07 15:56:25,671 INFO    SenderThread:103757 [sender.py:transition_state():626] send defer: 2
+2023-04-07 15:56:25,671 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 15:56:25,671 INFO    HandlerThread:103757 [handler.py:handle_request_defer():170] handle defer: 2
+2023-04-07 15:56:25,671 INFO    HandlerThread:103757 [system_monitor.py:finish():190] Stopping system monitor
+2023-04-07 15:56:25,671 DEBUG   SystemMonitor:103757 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-04-07 15:56:25,672 DEBUG   SystemMonitor:103757 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-04-07 15:56:25,672 INFO    HandlerThread:103757 [interfaces.py:finish():202] Joined cpu monitor
+2023-04-07 15:56:25,673 INFO    HandlerThread:103757 [interfaces.py:finish():202] Joined disk monitor
+2023-04-07 15:56:25,732 INFO    HandlerThread:103757 [interfaces.py:finish():202] Joined gpu monitor
+2023-04-07 15:56:25,732 INFO    HandlerThread:103757 [interfaces.py:finish():202] Joined memory monitor
+2023-04-07 15:56:25,732 INFO    HandlerThread:103757 [interfaces.py:finish():202] Joined network monitor
+2023-04-07 15:56:25,733 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: defer
+2023-04-07 15:56:25,733 INFO    SenderThread:103757 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-04-07 15:56:25,733 INFO    SenderThread:103757 [sender.py:transition_state():626] send defer: 3
+2023-04-07 15:56:25,733 DEBUG   SenderThread:103757 [sender.py:send():375] send: stats
+2023-04-07 15:56:25,733 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 15:56:25,734 INFO    HandlerThread:103757 [handler.py:handle_request_defer():170] handle defer: 3
+2023-04-07 15:56:25,734 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: defer
+2023-04-07 15:56:25,734 INFO    SenderThread:103757 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-04-07 15:56:25,734 INFO    SenderThread:103757 [sender.py:transition_state():626] send defer: 4
+2023-04-07 15:56:25,734 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 15:56:25,734 INFO    HandlerThread:103757 [handler.py:handle_request_defer():170] handle defer: 4
+2023-04-07 15:56:25,734 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: defer
+2023-04-07 15:56:25,735 INFO    SenderThread:103757 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-04-07 15:56:25,735 INFO    SenderThread:103757 [sender.py:transition_state():626] send defer: 5
+2023-04-07 15:56:25,735 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 15:56:25,735 INFO    HandlerThread:103757 [handler.py:handle_request_defer():170] handle defer: 5
+2023-04-07 15:56:25,735 DEBUG   SenderThread:103757 [sender.py:send():375] send: summary
+2023-04-07 15:56:25,736 INFO    SenderThread:103757 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-07 15:56:25,736 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: defer
+2023-04-07 15:56:25,736 INFO    SenderThread:103757 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-04-07 15:56:25,736 INFO    SenderThread:103757 [sender.py:transition_state():626] send defer: 6
+2023-04-07 15:56:25,736 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 15:56:25,736 INFO    HandlerThread:103757 [handler.py:handle_request_defer():170] handle defer: 6
+2023-04-07 15:56:25,736 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: defer
+2023-04-07 15:56:25,736 INFO    SenderThread:103757 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-04-07 15:56:25,740 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 15:56:25,928 INFO    SenderThread:103757 [sender.py:transition_state():626] send defer: 7
+2023-04-07 15:56:25,928 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 15:56:25,928 INFO    HandlerThread:103757 [handler.py:handle_request_defer():170] handle defer: 7
+2023-04-07 15:56:25,928 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: defer
+2023-04-07 15:56:25,928 INFO    SenderThread:103757 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-04-07 15:56:26,197 INFO    wandb-upload_0:103757 [upload_job.py:push():137] Uploaded file /tmp/tmp7fmi5zk0wandb/9r6krxnz-media/table/test/score_metrics_2_9b8ea65531a3d5d618e0.table.json
+2023-04-07 15:56:26,236 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/wandb-summary.json
+2023-04-07 15:56:26,236 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/config.yaml
+2023-04-07 15:56:26,236 INFO    Thread-12 :103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:56:28,485 INFO    SenderThread:103757 [sender.py:transition_state():626] send defer: 8
+2023-04-07 15:56:28,485 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 15:56:28,485 INFO    HandlerThread:103757 [handler.py:handle_request_defer():170] handle defer: 8
+2023-04-07 15:56:28,485 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: defer
+2023-04-07 15:56:28,485 INFO    SenderThread:103757 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-04-07 15:56:28,485 INFO    SenderThread:103757 [sender.py:transition_state():626] send defer: 9
+2023-04-07 15:56:28,486 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 15:56:28,486 INFO    HandlerThread:103757 [handler.py:handle_request_defer():170] handle defer: 9
+2023-04-07 15:56:28,486 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: defer
+2023-04-07 15:56:28,486 INFO    SenderThread:103757 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-04-07 15:56:28,486 INFO    SenderThread:103757 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-04-07 15:56:29,237 INFO    SenderThread:103757 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:56:29,238 INFO    SenderThread:103757 [dir_watcher.py:finish():395] scan: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files
+2023-04-07 15:56:29,238 INFO    SenderThread:103757 [dir_watcher.py:finish():409] scan save: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log output.log
+2023-04-07 15:56:29,238 INFO    SenderThread:103757 [dir_watcher.py:finish():409] scan save: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/conda-environment.yaml conda-environment.yaml
+2023-04-07 15:56:29,238 INFO    SenderThread:103757 [dir_watcher.py:finish():409] scan save: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/wandb-summary.json wandb-summary.json
+2023-04-07 15:56:29,239 INFO    SenderThread:103757 [dir_watcher.py:finish():409] scan save: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/requirements.txt requirements.txt
+2023-04-07 15:56:29,251 INFO    SenderThread:103757 [dir_watcher.py:finish():409] scan save: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/config.yaml config.yaml
+2023-04-07 15:56:29,254 INFO    SenderThread:103757 [dir_watcher.py:finish():409] scan save: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/wandb-metadata.json wandb-metadata.json
+2023-04-07 15:56:29,257 INFO    SenderThread:103757 [dir_watcher.py:finish():409] scan save: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/media/table/test/score_metrics_2_9b8ea65531a3d5d618e0.table.json media/table/test/score_metrics_2_9b8ea65531a3d5d618e0.table.json
+2023-04-07 15:56:29,257 INFO    SenderThread:103757 [sender.py:transition_state():626] send defer: 10
+2023-04-07 15:56:29,257 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 15:56:29,258 INFO    HandlerThread:103757 [handler.py:handle_request_defer():170] handle defer: 10
+2023-04-07 15:56:29,258 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: defer
+2023-04-07 15:56:29,258 INFO    SenderThread:103757 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-04-07 15:56:29,258 INFO    SenderThread:103757 [file_pusher.py:finish():168] shutting down file pusher
+2023-04-07 15:56:29,613 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-07 15:56:29,810 INFO    wandb-upload_0:103757 [upload_job.py:push():137] Uploaded file /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/conda-environment.yaml
+2023-04-07 15:56:29,851 INFO    wandb-upload_1:103757 [upload_job.py:push():137] Uploaded file /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/output.log
+2023-04-07 15:56:29,927 INFO    wandb-upload_3:103757 [upload_job.py:push():137] Uploaded file /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/requirements.txt
+2023-04-07 15:56:29,937 INFO    wandb-upload_4:103757 [upload_job.py:push():137] Uploaded file /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/config.yaml
+2023-04-07 15:56:29,999 INFO    wandb-upload_2:103757 [upload_job.py:push():137] Uploaded file /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/files/wandb-summary.json
+2023-04-07 15:56:30,199 INFO    Thread-11 :103757 [sender.py:transition_state():626] send defer: 11
+2023-04-07 15:56:30,200 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 15:56:30,200 INFO    HandlerThread:103757 [handler.py:handle_request_defer():170] handle defer: 11
+2023-04-07 15:56:30,200 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: defer
+2023-04-07 15:56:30,200 INFO    SenderThread:103757 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-04-07 15:56:30,200 INFO    SenderThread:103757 [file_pusher.py:join():173] waiting for file pusher
+2023-04-07 15:56:30,201 INFO    SenderThread:103757 [sender.py:transition_state():626] send defer: 12
+2023-04-07 15:56:30,201 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 15:56:30,201 INFO    HandlerThread:103757 [handler.py:handle_request_defer():170] handle defer: 12
+2023-04-07 15:56:30,201 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: defer
+2023-04-07 15:56:30,201 INFO    SenderThread:103757 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-04-07 15:56:30,768 INFO    SenderThread:103757 [sender.py:transition_state():626] send defer: 13
+2023-04-07 15:56:30,769 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 15:56:30,769 INFO    HandlerThread:103757 [handler.py:handle_request_defer():170] handle defer: 13
+2023-04-07 15:56:30,769 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 15:56:30,769 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: defer
+2023-04-07 15:56:30,769 INFO    SenderThread:103757 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-04-07 15:56:30,769 INFO    SenderThread:103757 [sender.py:transition_state():626] send defer: 14
+2023-04-07 15:56:30,769 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 15:56:30,769 INFO    HandlerThread:103757 [handler.py:handle_request_defer():170] handle defer: 14
+2023-04-07 15:56:30,770 DEBUG   SenderThread:103757 [sender.py:send():375] send: final
+2023-04-07 15:56:30,770 DEBUG   SenderThread:103757 [sender.py:send():375] send: footer
+2023-04-07 15:56:30,770 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: defer
+2023-04-07 15:56:30,770 INFO    SenderThread:103757 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-04-07 15:56:30,771 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-07 15:56:30,772 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: poll_exit
+2023-04-07 15:56:30,772 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: server_info
+2023-04-07 15:56:30,772 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: get_summary
+2023-04-07 15:56:30,773 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: sampled_history
+2023-04-07 15:56:30,774 DEBUG   SenderThread:103757 [sender.py:send_request():402] send_request: server_info
+2023-04-07 15:56:30,928 DEBUG   HandlerThread:103757 [handler.py:handle_request():144] handle_request: shutdown
+2023-04-07 15:56:30,928 INFO    HandlerThread:103757 [handler.py:finish():845] shutting down handler
+2023-04-07 15:56:31,774 INFO    WriterThread:103757 [datastore.py:close():298] close: /home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/wandb/run-20230407_155449-zr9lzy1q/run-zr9lzy1q.wandb
+2023-04-07 15:56:31,927 INFO    SenderThread:103757 [sender.py:finish():1550] shutting down sender
+2023-04-07 15:56:31,928 INFO    SenderThread:103757 [file_pusher.py:finish():168] shutting down file pusher
+2023-04-07 15:56:31,928 INFO    SenderThread:103757 [file_pusher.py:join():173] waiting for file pusher

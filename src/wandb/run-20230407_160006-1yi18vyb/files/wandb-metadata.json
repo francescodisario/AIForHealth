@@ -1,0 +1,85 @@
+{
+    "os": "Linux-5.19.0-26-generic-x86_64-with-glibc2.36",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-04-07T14:00:07.429087",
+    "startedAt": "2023-04-07T14:00:06.478981",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/main.py",
+    "codePath": "src/main.py",
+    "git": {
+        "remote": "git@github.com:EIDOSLAB/AI_healt-BISS.git",
+        "commit": "b2dc1dbc996e8b6bff54a51bf46404d1ed45e65d"
+    },
+    "email": "fradisario18@gmail.com",
+    "root": "/home/francesco/Scrivania/AIForHealth/AI_healt-BISS",
+    "host": "francesco",
+    "username": "francesco",
+    "executable": "/home/francesco/anaconda3/envs/tf-gpu/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2800.02175,
+        "min": 800.0,
+        "max": 2800.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2800.019,
+            "min": 800.0,
+            "max": 2800.0
+        },
+        {
+            "current": 2799.997,
+            "min": 800.0,
+            "max": 2800.0
+        },
+        {
+            "current": 2800.037,
+            "min": 800.0,
+            "max": 2800.0
+        },
+        {
+            "current": 2800.028,
+            "min": 800.0,
+            "max": 2800.0
+        },
+        {
+            "current": 2800.027,
+            "min": 800.0,
+            "max": 2800.0
+        },
+        {
+            "current": 2800.017,
+            "min": 800.0,
+            "max": 2800.0
+        },
+        {
+            "current": 2800.028,
+            "min": 800.0,
+            "max": 2800.0
+        },
+        {
+            "current": 2800.021,
+            "min": 800.0,
+            "max": 2800.0
+        }
+    ],
+    "disk": {
+        "total": 183.41388320922852,
+        "used": 98.88606643676758
+    },
+    "gpu": "NVIDIA GeForce GTX 1070",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1070",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 15.583377838134766
+    }
+}

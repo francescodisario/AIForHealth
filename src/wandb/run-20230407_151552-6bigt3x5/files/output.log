@@ -1,0 +1,80 @@
+
+Loading Dataset
+shape of testing label[0]: (36, 13, 13, 8)
+shape of testing label[1]: (36, 26, 26, 8)
+shape of testing label[2]: (36, 52, 52, 8)
+shape of testing img: (36, 416, 416, 3)
+shape of validation label[0]: (36, 13, 13, 8)
+shape of validation label[1]: (36, 26, 26, 8)
+shape of validation label[2]: (36, 52, 52, 8)
+shape of validation img: (36, 416, 416, 3)
+shape of training label[0]: (296, 13, 13, 8)
+shape of training label[1]: (296, 26, 26, 8)
+shape of training label[2]: (296, 52, 52, 8)
+shape of training img: (296, 416, 416, 3)
+epoch  1: loss = 0.0852
+epoch  2: loss = 0.0356
+epoch  3: loss = 0.0186
+epoch  4: loss = 0.0131
+epoch  5: loss = 0.0120
+epoch  6: loss = 0.0111
+epoch  7: loss = 0.0098
+epoch  8: loss = 0.0071
+epoch  9: loss = 0.0068
+epoch 10: loss = 0.0044
+epoch 11: loss = 0.0034
+epoch 12: loss = 0.0027
+epoch 13: loss = 0.0020
+epoch 14: loss = 0.0012
+epoch 15: loss = 0.0012
+epoch 16: loss = 0.0013
+epoch 17: loss = 0.0005
+epoch 18: loss = 0.0007
+epoch 19: loss = 0.0001
+epoch 20: loss = 0.0000
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7f6f68596160> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmpg3957tgu.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7f6f683f85e0> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmpyid_m64v.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7f6f683f89d0> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmp9pl0ttnd.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+
+ 9/60 [===>..........................] - ETA: 18s - loss: 839.9436 - concatenate_2_loss: 142.2010 - concatenate_3_loss: 224.0605 - concatenate_4_loss: 473.6822
+
+
+
+
+
+
+
+
+
+
+
+60/60 [==============================] - 42s 442ms/step - loss: 522.0329 - concatenate_2_loss: 100.8938 - concatenate_3_loss: 136.9307 - concatenate_4_loss: 284.2084 - val_loss: 353.7677 - val_concatenate_2_loss: 96.5278 - val_concatenate_3_loss: 91.9195 - val_concatenate_4_loss: 165.3203
+           precision    recall  F1-score  gts  dets
+RBC         0.069747  0.840860  0.128809  465  5606
+WBC         0.001433  0.027027  0.002721   37   698
+Platelets   0.000000  0.000000       NaN   39   879
+/home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/tf2_YOLO/utils/measurement.py:433: Warning: `PR_func` is deprecated and renamed to `PRfunc`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/main.py", line 161, in <module>
+    main()
+  File "/home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/main.py", line 139, in main
+    pr = PRfunc(
+  File "/home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/tf2_YOLO/utils/measurement.py", line 436, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/tf2_YOLO/utils/measurement.py", line 225, in __init__
+    xywhcp_pred = nms(xywhcp_pred, class_num, nms_threshold)
+  File "/home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/tf2_YOLO/utils/tools.py", line 655, in nms
+    iou_scores = cal_iou(xywhc_axis0, xywhc_axis1)
+  File "/home/francesco/Scrivania/AIForHealth/AI_healt-BISS/src/tf2_YOLO/utils/tools.py", line 617, in cal_iou
+    intersect_maxes = np.minimum(maxes_pred, maxes_true)
+KeyboardInterrupt

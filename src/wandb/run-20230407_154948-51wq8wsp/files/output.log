@@ -1,0 +1,105 @@
+
+Loading Dataset
+shape of testing label[0]: (36, 13, 13, 8)
+shape of testing label[1]: (36, 26, 26, 8)
+shape of testing label[2]: (36, 52, 52, 8)
+shape of testing img: (36, 416, 416, 3)
+shape of validation label[0]: (36, 13, 13, 8)
+shape of validation label[1]: (36, 26, 26, 8)
+shape of validation label[2]: (36, 52, 52, 8)
+shape of validation img: (36, 416, 416, 3)
+shape of training label[0]: (296, 13, 13, 8)
+shape of training label[1]: (296, 26, 26, 8)
+shape of training label[2]: (296, 52, 52, 8)
+shape of training img: (296, 416, 416, 3)
+epoch  1: loss = 0.1088
+epoch  2: loss = 0.0524
+epoch  3: loss = 0.0361
+epoch  4: loss = 0.0312
+epoch  5: loss = 0.0206
+epoch  6: loss = 0.0147
+epoch  7: loss = 0.0103
+epoch  8: loss = 0.0093
+epoch  9: loss = 0.0061
+epoch 10: loss = 0.0049
+epoch 11: loss = 0.0043
+epoch 12: loss = 0.0037
+epoch 13: loss = 0.0041
+epoch 14: loss = 0.0029
+epoch 15: loss = 0.0033
+epoch 16: loss = 0.0026
+epoch 17: loss = 0.0025
+epoch 18: loss = 0.0041
+epoch 19: loss = 0.0035
+epoch 20: loss = 0.0041
+epoch 21: loss = 0.0034
+epoch 22: loss = 0.0031
+epoch 23: loss = 0.0024
+epoch 24: loss = 0.0033
+epoch 25: loss = 0.0040
+epoch 26: loss = 0.0018
+epoch 27: loss = 0.0019
+epoch 28: loss = 0.0016
+epoch 29: loss = 0.0014
+epoch 30: loss = 0.0034
+epoch 31: loss = 0.0026
+epoch 32: loss = 0.0036
+epoch 33: loss = 0.0027
+epoch 34: loss = 0.0018
+epoch 35: loss = 0.0020
+epoch 36: loss = 0.0024
+epoch 37: loss = 0.0029
+epoch 38: loss = 0.0025
+epoch 39: loss = 0.0027
+epoch 40: loss = 0.0031
+epoch 41: loss = 0.0031
+epoch 42: loss = 0.0021
+epoch 43: loss = 0.0008
+epoch 44: loss = 0.0008
+epoch 45: loss = 0.0007
+epoch 46: loss = 0.0008
+epoch 47: loss = 0.0001
+epoch 48: loss = 0.0000
+Epoch 1/2
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7f5e00642790> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmpyqdbvrpw.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7f5e601dba60> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmplgkrfe6f.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7f5e601db160> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmp4cuqjgou.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+ 3/60 [>.............................] - ETA: 21s - loss: 809.8253 - concatenate_2_loss: 162.8515 - concatenate_3_loss: 180.4758 - concatenate_4_loss: 466.4980
+
+
+
+
+
+
+
+
+
+
+
+60/60 [==============================] - 38s 439ms/step - loss: 449.7421 - concatenate_2_loss: 107.9977 - concatenate_3_loss: 103.8345 - concatenate_4_loss: 237.9100 - val_loss: 336.0907 - val_concatenate_2_loss: 86.6316 - val_concatenate_3_loss: 89.2807 - val_concatenate_4_loss: 160.1784
+Epoch 2/2
+
+
+
+
+
+
+
+
+
+
+
+60/60 [==============================] - 23s 385ms/step - loss: 139.8525 - concatenate_2_loss: 54.0850 - concatenate_3_loss: 36.8064 - concatenate_4_loss: 48.9611 - val_loss: 255.2086 - val_concatenate_2_loss: 71.3494 - val_concatenate_3_loss: 61.4520 - val_concatenate_4_loss: 122.4071
+           precision    recall  F1-score  gts  dets
+RBC         0.166074  0.903226  0.280561  465  2529
+WBC         0.020877  0.540541  0.040201   37   958
+Platelets   0.025247  0.589744  0.048421   39   911

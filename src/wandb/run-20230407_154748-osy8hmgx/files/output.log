@@ -1,0 +1,93 @@
+
+Loading Dataset
+shape of testing label[0]: (36, 13, 13, 8)
+shape of testing label[1]: (36, 26, 26, 8)
+shape of testing label[2]: (36, 52, 52, 8)
+shape of testing img: (36, 416, 416, 3)
+shape of validation label[0]: (36, 13, 13, 8)
+shape of validation label[1]: (36, 26, 26, 8)
+shape of validation label[2]: (36, 52, 52, 8)
+shape of validation img: (36, 416, 416, 3)
+shape of training label[0]: (296, 13, 13, 8)
+shape of training label[1]: (296, 26, 26, 8)
+shape of training label[2]: (296, 52, 52, 8)
+shape of training img: (296, 416, 416, 3)
+epoch  1: loss = 0.0644
+epoch  2: loss = 0.0354
+epoch  3: loss = 0.0192
+epoch  4: loss = 0.0173
+epoch  5: loss = 0.0151
+epoch  6: loss = 0.0131
+epoch  7: loss = 0.0185
+epoch  8: loss = 0.0167
+epoch  9: loss = 0.0158
+epoch 10: loss = 0.0124
+epoch 11: loss = 0.0110
+epoch 12: loss = 0.0092
+epoch 13: loss = 0.0065
+epoch 14: loss = 0.0062
+epoch 15: loss = 0.0064
+epoch 16: loss = 0.0059
+epoch 17: loss = 0.0044
+epoch 18: loss = 0.0043
+epoch 19: loss = 0.0041
+epoch 20: loss = 0.0033
+epoch 21: loss = 0.0025
+epoch 22: loss = 0.0014
+epoch 23: loss = 0.0019
+epoch 24: loss = 0.0013
+epoch 25: loss = 0.0013
+epoch 26: loss = 0.0008
+epoch 27: loss = 0.0009
+epoch 28: loss = 0.0002
+epoch 29: loss = 0.0002
+epoch 30: loss = 0.0002
+epoch 31: loss = 0.0000
+Epoch 1/2
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7f5e8c2845e0> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmpltz824vi.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7f5de01a50d0> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmp4imqaiy3.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <function wrap_yolo_loss.<locals>.yolo_loss at 0x7f5e6fbc9820> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: invalid syntax (tmpd4zkyhxs.py, line 39)
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+60/60 [==============================] - 49s 582ms/step - loss: 947.6714 - concatenate_2_loss: 174.1941 - concatenate_3_loss: 166.7454 - concatenate_4_loss: 606.7320 - val_loss: 528.6387 - val_concatenate_2_loss: 118.4990 - val_concatenate_3_loss: 130.6755 - val_concatenate_4_loss: 279.4642
+Epoch 2/2
+
+
+
+
+
+
+
+
+
+
+
+
+
+60/60 [==============================] - 26s 439ms/step - loss: 286.8273 - concatenate_2_loss: 72.5264 - concatenate_3_loss: 59.6226 - concatenate_4_loss: 154.6782 - val_loss: 434.0971 - val_concatenate_2_loss: 90.8122 - val_concatenate_3_loss: 90.7370 - val_concatenate_4_loss: 252.5479
+           precision    recall  F1-score  gts  dets
+RBC         0.149562  0.918280  0.257229  465  2855
+WBC         0.000000  0.000000       NaN   37   303
+Platelets   0.003563  0.076923  0.006810   39   842

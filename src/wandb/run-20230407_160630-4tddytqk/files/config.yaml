@@ -1,0 +1,75 @@
+wandb_version: 1
+
+k_anchor:
+  desc: null
+  value: 18
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.16
+    cli_version: 0.14.1
+    framework: tensorflow
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1680876390.260342
+    t:
+      1:
+      - 3
+      - 55
+      2:
+      - 3
+      - 55
+      3:
+      - 2
+      - 7
+      - 23
+      - 37
+      - 38
+      4: 3.9.16
+      5: 0.14.1
+      8:
+      - 5
+    m:
+    - 1: epoch/epoch
+      6:
+      - 3
+    - 1: epoch/loss
+      5: 1
+      6:
+      - 1
+    - 1: epoch/concatenate_2_loss
+      5: 1
+      6:
+      - 1
+    - 1: epoch/concatenate_3_loss
+      5: 1
+      6:
+      - 1
+    - 1: epoch/concatenate_4_loss
+      5: 1
+      6:
+      - 1
+    - 1: epoch/val_loss
+      5: 1
+      6:
+      - 1
+    - 1: epoch/val_concatenate_2_loss
+      5: 1
+      6:
+      - 1
+    - 1: epoch/val_concatenate_3_loss
+      5: 1
+      6:
+      - 1
+    - 1: epoch/val_concatenate_4_loss
+      5: 1
+      6:
+      - 1
+    - 1: epoch/lr
+      5: 1
+      6:
+      - 1
+    - 1: epoch/learning_rate
+      5: 1
+      6:
+      - 1
